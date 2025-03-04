@@ -10,9 +10,9 @@ function projetos(section) {
           <div class="img-wrapper">
             <img
               class="project-img"
-              data-gif="./public/assets/img/SGDCgif.gif"
-              data-static="./public/assets/img/SGDC.png"
-              src="./public/assets/img/SGDC.png"
+              data-gif="./assets/img/SGDCgif.gif"
+              data-static="./assets/img/SGDC.png"
+              src="./assets/img/SGDC.png"
               alt="GIF do projeto Orange Evolution."
             />
             <div class="buttons">
@@ -56,9 +56,9 @@ function projetos(section) {
           <div class="img-wrapper">
             <img
               class="project-img"
-              data-gif="./public/assets/img/SGDTgif.gif"
-              data-static="./public/assets/img/SGDT.png"
-              src="./public/assets/img/SGDT.png"
+              data-gif="./assets/img/SGDTgif.gif"
+              data-static="./assets/img/SGDT.png"
+              src="./assets/img/SGDT.png"
               alt="Imagem tema do projeto de desafio de código."
             />
             <div class="buttons">
@@ -102,9 +102,9 @@ function projetos(section) {
           <div class="img-wrapper">
             <img
               class="project-img"
-              data-gif="./public/assets/img/Port_gif.gif"
-              data-static="./public/assets/img/Port_prt.png"
-              src="./public/assets/img/Port_prt.png" 
+              data-gif="./assets/img/Port_gif.gif"
+              data-static="./assets/img/Port_prt.png"
+              src="./assets/img/Port_prt.png" 
               alt="Imagem do projeto." 
             />
             <div class="buttons">
@@ -146,9 +146,9 @@ function projetos(section) {
           <div class="img-wrapper">
             <img
               class="project-img"
-              data-gif="./public/assets/projects/Site_DJ_ANA/DJ_ANA_GIF.gif"
-              data-static="./public/assets/projects/Site_DJ_ANA/DJ_ANA.png"
-              src="./public/assets/projects/Site_DJ_ANA/DJ_ANA.png"
+              data-gif="./assets/projects/Site_DJ_ANA/DJ_ANA_GIF.gif"
+              data-static="./assets/projects/Site_DJ_ANA/DJ_ANA.png"
+              src="./assets/projects/Site_DJ_ANA/DJ_ANA.png"
               alt="Imagem tema do projeto de desafio de código."
             />
             <div class="buttons">
@@ -204,9 +204,11 @@ function projetos(section) {
             />
           </svg>
         </div>
+        <div></div>
       </div>
     </div>`;
 
+  // Adicionando eventos de hover para trocar a imagem estática pelo GIF
   document.querySelectorAll(".project-img").forEach((img) => {
     img.addEventListener("mouseenter", () => {
       img.src = img.dataset.gif;
