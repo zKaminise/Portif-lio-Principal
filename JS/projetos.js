@@ -16,7 +16,7 @@ function projetos(section) {
               alt="GIF do projeto Orange Evolution."
             />
             <div class="buttons">
-              <a href="https://github.com/squad-30/OrangeEvolution-Squad30" target="_blank" title="Repositório no Github">
+              <a href="https://github.com/zKaminise/Controle_de_Clientes_FrontEnd" target="_blank" title="Repositório no Github">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -62,7 +62,7 @@ function projetos(section) {
               alt="Imagem tema do projeto de desafio de código."
             />
             <div class="buttons">
-              <a href="https://github.com/lucyanovidio/desafio-21-dias-codigo-rocketseat" target="_blank" title="Repositório no Github">
+              <a href="https://github.com/zKaminise/ControleTurmasFrontEnd" target="_blank" title="Repositório no Github">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -122,7 +122,7 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="https://gabrielmisao.vercel.app" target="_blank" title="Ver Projeto">
+              <a href="https://gabrielmisaodev.vercel.app" target="_blank" title="Ver Projeto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -208,7 +208,6 @@ function projetos(section) {
       </div>
     </div>`;
 
-  // Adicionando eventos de hover para trocar a imagem estática pelo GIF
   document.querySelectorAll(".project-img").forEach((img) => {
     img.addEventListener("mouseenter", () => {
       img.src = img.dataset.gif;
