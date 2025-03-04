@@ -108,7 +108,7 @@ function projetos(section) {
               alt="Imagem do projeto." 
             />
             <div class="buttons">
-              <a href="https://github.com/lucyanovidio/robertoovidionutri-bio" target="_blank" title="Repositório no Github">
+              <a href="https://github.com/zKaminise/Portif-lio-Principal/tree/main" target="_blank" title="Repositório no Github">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -122,7 +122,7 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="https://robertoovidionutri-bio.vercel.app" target="_blank" title="Ver Projeto">
+              <a href="https://gabrielmisao.vercel.app" target="_blank" title="Ver Projeto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
