@@ -275,6 +275,15 @@ body.light-mode nav.scroll {
   background: rgba(151, 151, 151, 0.5);
 }
 
+/* LOGOMARCAR */
+
+.logomarca{
+  height: 20rem;
+  width: 20rem;
+
+}
+
+
 /* LOGO */
 
 a.logo {
